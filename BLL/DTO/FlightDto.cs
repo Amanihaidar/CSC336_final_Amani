@@ -12,9 +12,9 @@ namespace BLL.DTO
 
         public string? FlightNumber { get; set; }
 
-        public DateTime? DepartureTime { get; set; }
+        public DateOnly? DepartureTime { get; set; }
 
-        public DateTime? ArrivalTime { get; set; }
+        public DateOnly? ArrivalTime { get; set; }
 
         public string? DepartureAirport { get; set; }
 
