@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAL.Models;
+using DAL.Repositories.Generic;
 
-namespace DAL.Repositories.Passenger
+namespace DAL.Repositories.Passengers
 {
-    public interface IPassengerRepository
+    public interface IPassengerRepository : IGenericRepository<Passenger>
     {
     }
 }
